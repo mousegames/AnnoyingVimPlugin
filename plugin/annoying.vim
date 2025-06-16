@@ -1,4 +1,4 @@
-fun! Annoying()
+fun! AnnoyMe()
   " Appearance
   hi Normal ctermfg=7 ctermbg=3
   syn off
@@ -15,10 +15,10 @@ fun! Annoying()
   set noshowmatch
 endfunction
 
-fun! AnnoyingOff()
+fun! StopAnnoyingMe()
   source $MYVIMRC
 endfunction
 
-command! AnnoyMe call Annoying()
-command! StopAnnoyingMe call AnnoyingOff()
+command! AnnoyMe call AnnoyMe()
+command! StopAnnoyingMe call StopAnnoyingMe()
 

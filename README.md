@@ -12,7 +12,7 @@ call plug#end()
 ```
 to your .vimrc if you havn't already
 
-2. in vim run
+2. reset vim and run
 ```vim
 :Pluginstall
 ```
