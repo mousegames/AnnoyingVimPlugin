@@ -3,7 +3,8 @@
 # WARNING THIS IS ANNOYING
 
 ## How to use
-1. Add ```vim
+1. Add
+```vim
 call plug#begin('~/.vim/plugged')
 ``` to your .vimrc if you havn't already
 2. then put ```vim
@@ -12,10 +13,12 @@ Plug mousegames/AnnoyingVimPlugin
 3. in vim run ```vim
 :Pluginstall
 ```
-4. to use run ```vim
+4. to use run
+```vim
 :Annoying
 ```
-to stop run ```vim
+to stop run
+```vim
 :AnnoyingOff
 ```
 
