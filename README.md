@@ -19,11 +19,11 @@ to your .vimrc if you havn't already
 
 3. to use run
 ```vim
-:Annoying
+:AnnoyMe
 ```
 to stop run
 ```vim
-:AnnoyingOff
+:StopAnnoyingMe
 ```
 
 ## depandencies
