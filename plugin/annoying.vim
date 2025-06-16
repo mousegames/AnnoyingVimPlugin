@@ -19,6 +19,6 @@ fun! AnnoyingOff()
   source $MYVIMRC
 endfunction
 
-command! Annoying call AnnoyMe()
-command! AnnoyingOff call StopAnnoyingMe()
+command! AnnoyMe call Annoying()
+command! StopAnnoyingMe call AnnoyingOff()
 
