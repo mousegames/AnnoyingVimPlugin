@@ -8,11 +8,13 @@
 call plug#begin('~/.vim/plugged')
 ```
 to your .vimrc if you havn't already
-2. then put ```vim
+2. then put
+```vim
 Plug mousegames/AnnoyingVimPlugin
 ```
 in you .vimrc as well
-3. in vim run ```vim
+3. in vim run
+```vim
 :Pluginstall
 ```
 4. to use run
